@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans';
+    background-color: #FFFFFF;
+    display: grid;
+}
+.fondo{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(0deg, rgba(56, 149, 234, 0.5), rgba(56, 149, 234, 0.5));
+}
+.navegacion{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.navegacion_container{
+    background:url(Archivos/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#FFFFFF;
+    position: absolute;
+    left:72%;
+    top: 7%;    
+}
+.a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.avatar_container{
+    width: 100%;
+    height: 200px;
+}
+.avatar_image{
+    background: url(Archivos/sergio-de-paula-c_GmwfHBDzk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+	outline: 7px solid rgba(255, 255, 255, 0.65);
+    position: absolute;
+    top: 88%;
+	left: 44%;
+}
+.container_description_avatar{
+    width: 100%;
+    height: 331px;
+}
+.avatar_text{
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.about{
+    color: #DD820D;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 30px 0 80px;
+    left: 38%;
+    position: absolute;
+    left:45%;
+}
+.description{
+    width: 830px;
+    height: 75px;
+    font-weight: 300;
+    text-align: center;
+    margin: 140px 0 0;
+    color: #5A5A5A;
+    font-size: 18px;
+    line-height: 25px;
+}
+.description_reference{
+    color: #0A0AEE;
+}
+.card_name{
+    background: rgba(15, 41, 65, 0.75);
+    border: 2px solid #FFF;
+    width: 350px;
+    height: 142px;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    position: absolute;
+    left: 38%;
+    top: 38%;
+}
+.card_text_name{
+    color: #FFF;
+    text-align: start;
+    font-weight: 400;
+    font-size: 50px;
+    width: 293px;
+    height: 68px;
+}
+.card_text_cargo{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+}
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    width: 235px;
+    height: 291.65px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.image_card{
+    width: 100%;
+    height: 235.25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.text_card{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    color: #0A0AEE;
+    text-align: center;
+    line-height: 21.79px;
+}
+.text_card_lenguages{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #5A5A5A;
+}
+.container_images_cards{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.container_formulario{
+    margin: 40px 0 40.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+}
+.formulario{
+    background-color:#F5F5F5;
+    width: 828.74px;
+    height: 438px;
+}
+.title_form{
+    color: #3895EA;
+    padding: 40px;
+    font-weight: 300;
+    font-size: 34px;
+    text-align: center;
+}
+.title_cards{
+    width: 100%;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    padding: 40px 0 40.95px;
+}
+form{
+    margin: 0 80px;
+    gap: 25px;
+    background: #F5F5F5;
+}
+.input_nombre{
+    width: 320px;
+    height: 50px;
+    padding: 11px 11px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    border: 2px solid #CECECE;
+    color: #F5F5F5;
+    background: rgba(245, 245, 245, 0.94);
+
+}
+.input_email{
+    width: 320px;
+    height: 50px;
+    padding: 11px 11px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    border: 2px solid #CECECE;
+    background: rgba(245, 245, 245, 0.94);
+
+}
+.input_mensaje{
+    width: 660px;
+    height: 99.33px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px 11px 64.55px;
+    border: 2px solid #CECECE;
+    background: rgba(245, 245, 245, 0.94);
+    margin-bottom: 40.73px;
+
+}
+.container_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(245, 245, 245, 0.94);
+    margin-bottom: 40.73px;
+}
+.boton{
+    background: #3895EA;
+    border-style: none;
+    width: 150px;
+    height: 50.66px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 260px;
+}
+.container_social{
+    width: 100%;
+    height: 192px;
+    background: #1E2B38;
+    gap: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_icon_twitter{
+    background: #00ACEE;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+.icon_twitter{
+    margin: 15px 32px;
+}
+.card_icon_youtube{
+    background: #B2071D;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+.icon_youtube{
+    margin: 12px 29px;
+}
+.card_icon_facebook{
+    background: #39569C;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+.icon_facebook{
+    margin: 15px 42px;
+}
+.card_icon_instagram{
+    background: #3F729B;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+.icon_instagram{
+    margin: 12px 35px;
+}
+.card_icon_github{
+    background: #171515;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+.icon_github{
+    margin: 12px 35px;
+}
+@media (max-width: 375px) {
+.lista{
+    display:flex;
+    flex-direction: column;
+    width: 101px;
+    height: 80px;
+    left: 10px;
+    top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.fondo{
+    width: 375px;
+    height: 109px;
+}
+.navegacion{
+    width: 375px;
+    height: 109px;
+}
+.card_name{
+    width: 160px;
+    height: 50px;
+    padding: 0;
+    left: 109px;
+    top: 29px;
+    border: 1px solid #FFF;
+    background: rgba(53, 80, 104, 0.75);
+}
+.card_text_name{
+    font-size:16px;
+    width: 100%;
+    height: 22px;
+    padding-left: 8px;
+    text-align: center;
+}
+.card_text_cargo{
+    font-size: 16px;
+}
+.avatar_container{
+    width: 50px;
+    height: 50px;
+    left: 158px;
+    top: 144px;
+}
+.avatar_image{
+    width: 50px;
+    height: 50px;
+	border: 2px solid #CECECE;
+    outline: none;
+    left: calc(50%-(360px/2));
+    top: 85px;
+}
+/*.avatar_text{
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.about{
+    color: #DD820D;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 30px 0 80px;
+    left: 38%;
+    position: absolute;
+    left:45%;
+}*/
+.container_description_avatar{
+    width: 100%;
+    height: 190px;
+}
+.avatar_text{
+    width: 250px;
+    height: 195px;
+    margin-left: 68px;
+}
+.about{
+    width: 85px;
+    height: 25px;
+    font-size: 18px;
+    left: 33%;
+    bottom: 55px;
+}
+.description{
+    width: 250px;
+    height: 95px;
+    font-size: 14px;
+    margin: 0 55px;
+    line-height: 19px;
+    margin-top: 30px;
+}
+.container_images_cards{
+    width: 100%;
+    height: 921px;
+}
+.title_cards{
+    font-size: 18px;
+    padding: 20px 0;
+    margin-left: px;
+}
+/* .title_cards{
+    border: 1px solid red;
+    width: 100%;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    padding: 40px 0 40.95px;
+} */
+.container_cards{
+    gap: 0;
+    display: grid;
+    grid-template-columns: 176px 176px;
+    justify-content: flex-start;
+}
+.card{
+    width: 150px;
+    height: 194px;
+    margin: 0 25px 25px;
+}
+.image_card{
+    width: 150px;
+    height: 150px;  
+    border: none;
+    border-radius: 0px;
+    margin: -4px 0 0;
+}
+.text_card{
+    font-size: 16px;
+}
+.text_card{
+    font-size: 14px
+}
+.container_formulario{
+    margin-top:40px;
+    justify-content: flex-start;
+}
+.formulario{
+    width: 100%;
+    height: 339px;
+}
+.title_form{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21.42px 148px;
+    text-align: start;
+}
+.container_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 92px;
+    position: relative;
+}
+.input_nombre{
+    width: 325px;
+    height: 35px;   
+    border: 2px solid #D9D9D9;
+    padding: 7px 10px 8px;
+    color: #A4A4A4; 
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+form{
+    margin: 0 25px;
+    gap: 0;
+}
+.input_email{
+    width: 325px;
+    height: 35px;   
+    border: 2px solid #D9D9D9;
+    padding: 8px 10px 8px;
+    color: #A4A4A4; 
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.input_mensaje{
+    width:325px;
+    height: 80px;
+    font-size: 18px;
+    padding:11.43px 10px 43.57px; 
+    position: absolute;
+    top: 1440px;
+}
+.boton{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: -150px;
+    top: 1540px;
+}
+.container_social{
+    width: 100%;
+    height: 48px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.card_icon_twitter{
+    width: 25px;
+    height: 15px;
+}
+.icon_twitter{
+    margin: 3.75px 8px;
+}
+.card_icon_youtube{
+    width: 25px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_youtube{
+    margin: 3.75px 7.25px;
+}
+.card_icon_facebook{
+    width: 25px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_facebook{
+    margin: 3.75px 10.5px;
+}
+.card_icon_instagram{
+    width: 25px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_instagram{
+    margin: 3.75px 8.75px;
+}
+.card_icon_github{
+    width: 25px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_github{
+    margin: 3.75px 8.75px;
+}
+}
